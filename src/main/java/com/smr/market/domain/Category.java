@@ -1,16 +1,16 @@
 package com.smr.market.domain;
 
 public class Category {
-    private int categioryId;
+    private int categoryId;
     private String category;
     private boolean active;
 
-    public int getCategioryId() {
-        return categioryId;
+    public int getCategoryId() {
+        return categoryId;
     }
 
-    public void setCategioryId(int categioryId) {
-        this.categioryId = categioryId;
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 
     public String getCategory() {
